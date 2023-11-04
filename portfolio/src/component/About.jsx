@@ -2,22 +2,22 @@ import dp from '../images/Robert1.JPG'
 
 const About = ()=> {
     return (
-        <div className='About'>
+        <div className='About' id='about'>
             <p className='header'>About Me</p>
             <div className='container'>
                 <div className="bio">
                 <p>
-                I earned my B.S. in Mechanical Engineering in 2016 after working full-time
-                and going to school full-time for 5 years. Then I proceeded to use all the 
-                extra time I had to teach myself something completely new. I went from
-                learning how to play guitar and piano to learning how to make music with
-                software, then on to learning how to make the software itself.
+                I earned my BSc. in Computer Science in 2020 after
+                going to school full-time for 4 years. I worked as a data specilalist for a year and half.
+                I did data annotation, learnt about computer vision and natural language processing during 
+                my time as a data specilalist.
+                I mostly use my free time to teach myself something completely new or further develop my
+                existing knowledge base. I went from
+                learning how to play piano(not that good though) to learning how to make music with
+                software, then on to learning how to make software.
                 </p>
                 </div>
                 <div className="gallery">
-                    <img src={dp} className='photo'/>
-                    <img src={dp} className='photo'/>
-                    <img src={dp} className='photo'/>
                     <img src={dp} className='photo'/>
                 </div>
             </div>

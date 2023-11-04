@@ -58,6 +58,9 @@ li {
   transition: 0.3s;
   color: rgb(255, 255, 255);
 }
+a {
+text-decoration: none;
+}
 li:hover {
   /* background-color: rgb(207, 204, 204); */
   background: -webkit-linear-gradient(rgb(240, 29, 127), rgb(219, 21, 245), rgb(58, 18, 238), rgb(28, 202, 233));
@@ -66,11 +69,12 @@ li:hover {
 }
 .main {
   margin: auto;
-  padding-top:100px;
+  margin-top:100px;
   position: relative;
   /* background-color: rgb(6, 7, 49); */
 }
 .intro {
+  padding-top: 150px;
   display: flex;
   width: 600px;
   margin: auto;
@@ -151,16 +155,22 @@ h3 {
   }
 }
 .projects{
-  margin-bottom: 500px;
+  padding-top: 150px;
 }
 .project-icon {
   width: 100px;
 }
+.About {
+  padding-top: 150px;
+}
 .container {
   margin-bottom: 500px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   margin-left: 20%;
+  align-items: center;
+}
+.gallery {
+   margin-left:50px;
 }
 .header {
   font-size: 40px;
@@ -179,7 +189,17 @@ h3 {
 .photo {
   width: 100px;
 }
+.contact {
+  padding-top: 150px;
+  padding-bottom: 350px;
+  display: grid;
+  justify-items: center;
+}
 .contact p {
   color: white;
+  text-align: center;
+}
+.footer {
+  color: rgb(218, 214, 214);
   text-align: center;
 }
