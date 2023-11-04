@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  background-color: rgb(6, 7, 49);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(233, 232, 232); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 250px;
+  padding-top: 5px;
+  justify-content: space-between;
+  background-color: rgb(6, 7, 49);
+  /* box-shadow: 0px 5px 5px rgb(6, 7, 49); */
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+h1 {
+  font-family: "Juice ITC Regular";
+  font-size: 60px;
+  background: -webkit-linear-gradient(rgb(240, 29, 127), rgb(219, 21, 245), rgb(58, 18, 238), rgb(28, 202, 233), rgb(22, 231, 50));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: rgb(255, 255, 255); */
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+h1:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+}
+li {
+  font-size: 20px;
+  margin-left: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: rgb(255, 255, 255);
+}
+li:hover {
+  /* background-color: rgb(207, 204, 204); */
+  background: -webkit-linear-gradient(rgb(240, 29, 127), rgb(219, 21, 245), rgb(58, 18, 238), rgb(28, 202, 233));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main {
+  margin: auto;
+  padding-top:100px;
+  position: relative;
+  /* background-color: rgb(6, 7, 49); */
+}
+.intro {
+  display: flex;
+  width: 600px;
+  margin: auto;
+  margin-top: 200px;
+  align-items: center;
+  margin-bottom: 600px;
+  /* border: 1px solid red; */
+}
+
+.me {
+  /* border: 1px solid green; */
+  margin:auto;
+}
+.reach-out {
+  font-size: 25px;
+  font-family: "Vivaldi Italic";
+  color: rgb(6, 7, 49);
+  padding:10px;
+  border: none;
+  border-radius: 10px;
+  background-color: yellow;
+  margin-left: 25%;
+  margin-bottom: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.reach-out:hover {
+  background-color: orange;  
+  color: white;
+}
+h3 {
+  font-size: 20px;
+  word-spacing: 10px;
+  font-family: "century Regular";
+  color: white;
+}
+.profile-picture {
+  width: 200px;
+  /* border: 5px solid rgb(233, 231, 231); */
+  border-radius: 100px;
+  z-index: 10;
+}
+.style {
+  position: relative;
+  width: 210px;
+  height: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 5px solid white; */
+  border-radius: 120px;
+  background:rgb(6, 7, 49);
+  overflow: hidden;
+}
+.style::before {
+  content: '';
+  position: absolute;
+  width: 105px;
+  height: 340px;
+  animation: animate 5s linear infinite;
+  background: linear-gradient(to right, rgb(243, 35, 104), rgb(238, 39, 178), rgb(97, 23, 233), rgb(17, 14, 185), rgb(33, 174, 230));
+}
+.style::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  background: rgb(6, 7, 49);
+  border-radius: 16px;
+}
+@keyframes animate {
+  0% 
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+.projects{
+  margin-bottom: 500px;
+}
+.project-icon {
+  width: 100px;
+}
+.container {
+  margin-bottom: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20%;
+}
+.header {
+  font-size: 40px;
+  font-family: "Script MT Bold";
+  color: white;
+  text-align: center;
+}
+.bio {
+  width: 550px;
+  text-align: inherit ;
+}
+.bio p {
+  font-size: 20px;
+  color: white;
+}
+.photo {
+  width: 100px;
+}
+.contact p {
+  color: white;
+  text-align: center;
+}
