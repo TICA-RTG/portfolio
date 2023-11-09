@@ -97,7 +97,7 @@ li:hover {
   position: relative;
 }
 .intro {
-  padding-top: 150px;
+  padding-top: 100px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -107,7 +107,6 @@ li:hover {
 }
 
 .me {
-  border: 1px solid green;
   margin:10px;
   width: 30%;
   display: flex;
@@ -187,16 +186,19 @@ h3 {
 }
 .skill-set{
   display: flex;
-  justify-content: center;
   justify-content: space-between;
+  align-items: center;
 }
 .skill{
   padding: 20px;
   width:150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skill-icon {
-  width: 100%;
+  width: 120px;
 }
 .About {
   padding-top: 150px;
@@ -205,11 +207,11 @@ h3 {
   margin-bottom: 500px;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20%;
+  justify-content: center;
   align-items: center;
 }
 .gallery {
-   margin-left:50px;
+  width: 120px;
 }
 .header {
   font-size: 40px;
@@ -226,7 +228,7 @@ h3 {
   color: white;
 }
 .photo {
-  width: 100px;
+  width: 100%;
 }
 .contact {
   padding-top: 150px;
@@ -254,6 +256,7 @@ h3 {
     background-color: rgb(6, 7, 49);
     flex-direction: column;
     align-items: start;
+    padding:0px;
   }
 
   .nav-bar ul {
@@ -281,12 +284,15 @@ h3 {
   }
   
   .skill{
-    padding:10px;
-    width:150px;
+    padding:20px;
+    width:120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .skill-icon {
-    width: 100%;
+    width: 50px;
   }
   
 }

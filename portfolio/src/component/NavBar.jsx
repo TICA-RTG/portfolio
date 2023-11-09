@@ -22,7 +22,7 @@ const NavBar = ()=> {
             </div>
                     <ul className={menuOpen ? "menu-open" : ""}>
                         <Link to="#project" smooth>
-                            <li>Work</li>
+                            <li>Skills</li>
                         </Link>
                         <Link to="#about" smooth>
                             <li>About</li>
