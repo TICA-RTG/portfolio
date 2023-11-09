@@ -1,6 +1,6 @@
 
 const Contact = ()=>{
-    const phone = +2331111111111;
+    const phone = "tel:+233503353666";
     return (
         <div className="contact" id="contact">
             <p className="header">Drop A Line</p>
@@ -13,10 +13,10 @@ const Contact = ()=>{
                 <a href="mailto:grantrobert85@gmail.com">
                 <li>Gmail</li>
                 </a>
-                <a href="https://www.linkedin.com/in/robert-okoe-se" target="_blank">
+                <a href="https://www.linkedin.com/in/robert-okoe-se" target="_blank" rel="noreferrer">
                     <li>LinkedIn</li>
                     </a>
-                    <a href="https://twitter.com/TicaGrant?s=09" target="_blank">
+                    <a href="https://twitter.com/TicaGrant?s=09" target="_blank" rel="noreferrer">
                     <li>X</li>
                     </a>
                 
