@@ -224,7 +224,8 @@ h3 {
   text-align: inherit ;
 }
 .bio p {
-  font-size: 15px;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
   color: white;
 }
 .photo {
@@ -275,6 +276,12 @@ h3 {
     width: 60%;
   }
 
+  .bio p {
+    text-align: justify;
+    font-size: 13px;
+    padding: 20px;
+  }
+
   .skill-set {
     width: 100%;
     display: flex;
@@ -284,7 +291,7 @@ h3 {
   }
   
   .skill{
-    padding:20px;
+    padding:10px;
     width:120px;
     display: flex;
     flex-direction: column;

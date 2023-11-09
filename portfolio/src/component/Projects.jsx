@@ -1,4 +1,4 @@
-import svg from '../images/api-interface.svg'
+import postgres from '../images/postgresql.svg'
 import RI from '../images/ReactIcon.png'
 import css from '../images/css-icon.svg'
 import js from '../images/javascript-icon.svg'
@@ -14,10 +14,11 @@ const Projects = ()=> {
             <div className="skill-set">
                 <SkillCard description={"JavaScript"} skillIcon={js}/>
                 <SkillCard description={"React"} skillIcon={RI}/>
+                <SkillCard description={"CSS"} skillIcon={css}/>
                 <SkillCard description={"Node Js"} skillIcon={nodejs}/>
                 <SkillCard description={"Express Js"} skillIcon={expressjs}/>
                 <SkillCard description={"MongoDB"} skillIcon={mongo}/>
-                <SkillCard description={"CSS"} skillIcon={css}/>
+                <SkillCard description={"Postgresql"} skillIcon={postgres}/>
             </div>
         </div>
     )
