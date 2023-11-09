@@ -10,7 +10,7 @@ const Introduction = ()=> {
         <BrowserRouter>
         <div className="main">
             <div className='intro' id='home'>
-                <div className='style'><img src={dp} className="profile-picture" alt='my pic'></img></div>
+                <div className='style'><img src={dp} className="profile-picture" alt='developer'></img></div>
                 <div className='me'>
                     <h3>Hi, my name is Robert.<br/>
                         I am a web developer.<br/>
