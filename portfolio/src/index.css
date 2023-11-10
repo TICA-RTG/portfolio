@@ -261,7 +261,8 @@ h3 {
   }
 
   .nav-bar{
-    background-color: rgb(6, 7, 49);
+    /* background-color: rgb(6, 7, 49); */
+    background-color: yellow;
     flex-direction: column;
     align-items: start;
     padding:0px;
@@ -277,7 +278,11 @@ h3 {
 
   .nav-bar ul.menu-open {
     display: flex;
-    
+  }
+
+  .intro {
+    padding-top: 70px;
+    margin-top: 70px;
   }
 
   .me {
