@@ -21,7 +21,7 @@ code {
   align-items: center;
   padding-top: 5px;
   justify-content: space-between;
-  /* background-color: rgb(6, 7, 49); */
+  background-color: rgb(6, 7, 49);
   padding-left: 90px;
   padding-right: 50px;
   position: fixed;
@@ -203,6 +203,7 @@ h3 {
 .skill-icon {
   width: 120px;
 }
+
 .About {
   padding-top: 150px;
 }
