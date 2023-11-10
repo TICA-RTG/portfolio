@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(6, 7, 49);
+  background-color: rgb(3, 3, 20);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -21,8 +21,9 @@ code {
   align-items: center;
   padding-top: 5px;
   justify-content: space-between;
-  background-color: rgb(6, 7, 49);
+  background-color: rgb(3, 3, 20);
   padding-left: 90px;
+  box-shadow: 2px 2px 4px rgb(148, 124, 236);
   padding-right: 50px;
   position: fixed;
   top: 0;
@@ -197,7 +198,7 @@ h3 {
 }
 .skill p {
   font-size: 17px;
-  color: white;
+  color: rgb(167, 164, 164);
 }
 
 .skill-icon {
@@ -230,7 +231,7 @@ h3 {
 .bio p {
   font-size: 20px;
   font-family:Verdana, Geneva, Tahoma, sans-serif ;
-  color: white;
+  color: rgb(167, 164, 164);
 }
 .photo {
   width: 100%;
@@ -246,6 +247,7 @@ h3 {
   text-align: center;
 }
 .for-business p{
+  color: rgb(167, 164, 164);
   padding: 20px;
 }
 .footer {
@@ -262,7 +264,7 @@ h3 {
   }
 
   .nav-bar{
-    background-color: rgb(6, 7, 49);
+    background-color: rgb(3, 3, 20);
     flex-direction: column;
     align-items: start;
     padding:0px;
@@ -273,7 +275,10 @@ h3 {
     flex-direction: column;
     width: 100%;
     margin: 0px;
-    background-color: rgb(25, 26, 100);
+    background-color: rgb(14, 14, 41);
+    /* position: absolute;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all .3s ease; */
   }
 
   .nav-bar ul.menu-open {

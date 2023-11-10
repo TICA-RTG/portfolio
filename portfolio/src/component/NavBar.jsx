@@ -20,7 +20,7 @@ const NavBar = ()=> {
                 <span></span>
                 <span></span>
             </div>
-                    <ul className={menuOpen ? "menu-open" : ""}>
+                    <ul className={menuOpen ? "menu-open" : "menu-closed"}>
                         <Link to="#project" smooth>
                             <li>Skills</li>
                         </Link>
