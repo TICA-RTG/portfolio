@@ -1,4 +1,4 @@
-import dp from '../images/Robert1.JPG'
+// import dp from '../images/Robert1.JPG'
 
 const About = ()=> {
     return (
@@ -18,7 +18,7 @@ const About = ()=> {
                 </p>
                 </div>
                 <div className="gallery">
-                    <img src={dp} className='photo' alt='developer'/>
+                    {/* <img src={dp} className='photo' alt='developer'/> */}
                 </div>
             </div>
             

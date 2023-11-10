@@ -21,7 +21,7 @@ code {
   align-items: center;
   padding-top: 5px;
   justify-content: space-between;
-  background-color: rgb(6, 7, 49);
+  /* background-color: rgb(6, 7, 49); */
   padding-left: 90px;
   padding-right: 50px;
   position: fixed;
@@ -31,13 +31,12 @@ code {
   z-index: 100;
 }
 h1 {
-  font-family: "Juice ITC Regular";
-  font-size: 60px;
+  font-family:'Courier New', Courier, monospace;
   background: -webkit-linear-gradient(rgb(240, 29, 127), rgb(219, 21, 245), rgb(58, 18, 238), rgb(28, 202, 233), rgb(22, 231, 50));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* color: rgb(255, 255, 255); */
-  margin: 15px;
+  margin-left: 15px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
@@ -74,18 +73,18 @@ li:hover {
   -webkit-text-fill-color: transparent;
 } */
 .menu-button {
-  width: 40px;
-  height: 30px;
+  width: 30px;
+  height: 20px;
   display: none;
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 30px;
-  right: 20px;
+  top: 13px;
+  right: 30px;
 }
 .menu-button span {
   width: 100%;
-  height: 6px;
+  height: 3px;
   background-color: rgb(255, 255, 255);
   border-radius: 3px;
 }
@@ -196,6 +195,10 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
+.skill p {
+  font-size: 17px;
+  color: white;
+}
 
 .skill-icon {
   width: 120px;
@@ -241,9 +244,13 @@ h3 {
   color: white;
   text-align: center;
 }
+.for-business p{
+  padding: 20px;
+}
 .footer {
-  color: rgb(218, 214, 214);
+  color: rgb(160, 156, 156);
   text-align: center;
+  font-size: 14px;
 }
 
 
@@ -270,6 +277,7 @@ h3 {
 
   .nav-bar ul.menu-open {
     display: flex;
+    
   }
 
   .me {
@@ -292,14 +300,20 @@ h3 {
   
   .skill{
     padding:10px;
-    width:120px;
+    width:100px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .skill-icon {
-    width: 50px;
+    width: 70px;
   }
-  
+
+  .skill p{
+    font-size: 14px;
+  }
+  .footer {
+    font-size: 12px;
+  }
 }
