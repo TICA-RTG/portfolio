@@ -79,7 +79,7 @@ li:hover {
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 13px;
+  top: 15px;
   right: 30px;
 }
 .menu-button span {
