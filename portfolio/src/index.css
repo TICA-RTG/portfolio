@@ -229,8 +229,8 @@ h3 {
 }
 .bio p {
   font-size: 20px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif ;
-  color: rgb(167, 164, 164);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(180, 180, 216);
   letter-spacing: 3px;
 }
 .photo {
@@ -247,7 +247,7 @@ h3 {
   text-align: center;
 }
 .for-business p{
-  color: rgb(167, 164, 164);
+  color: rgb(180, 180, 216);
   padding: 20px;
 }
 .footer {
@@ -277,6 +277,7 @@ h3 {
     width: 100%;
     margin: 0px;
     background-color: rgb(14, 14, 41);
+    box-shadow: 2px 2px 4px rgb(148, 124, 236);
     /* position: absolute;
     transition: all 0.5s ease-out;
     -webkit-transition: all .3s ease; */
