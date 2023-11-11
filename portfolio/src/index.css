@@ -121,17 +121,17 @@ li:hover {
 .reach-out {
   font-size: 25px;
   font-family: "Vivaldi Italic";
-  color: rgb(6, 7, 49);
+  color: aliceblue;
   padding:10px;
   border: none;
   border-radius: 10px;
-  background-color: yellow;
+  background-color: rgb(6, 7, 49);
   margin-bottom: 5px;
   transition: 0.3s;
   cursor: pointer;
 }
 .reach-out:hover {
-  background-color: orange;  
+  background-color: rgb(32, 85, 110);  
   color: white;
 }
 h3 {
@@ -225,8 +225,11 @@ h3 {
 .header {
   font-size: 40px;
   font-family: "Script MT Bold";
-  color: rgb(6, 7, 49);
+  /* color: rgb(6, 7, 49); */
   text-align: center;
+  background: -webkit-linear-gradient(rgb(240, 29, 127), rgb(219, 21, 245), rgb(58, 18, 238), rgb(28, 202, 233), rgb(22, 231, 50));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .bio {
   width: 700px;
@@ -234,7 +237,7 @@ h3 {
 }
 .bio p {
   font-size: 20px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   color: rgb(61, 61, 78);
   letter-spacing: 3px;
 }
