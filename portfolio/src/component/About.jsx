@@ -7,19 +7,20 @@ const About = ()=> {
             <div className='container'>
                 <div className="bio">
                 <p>
-                I earned my BSc. in Computer Science in 2020 after
-                going to school full-time for 4 years. I worked as a data specialist for a year and half.
-                I did data annotation, learnt about computer vision and natural language processing during 
-                my time as a data specialist.
-                I mostly use my free time to teach myself something completely new or further develop my
-                existing knowledge base. I went from
-                learning how to play piano to learning how to make music with
-                software, then on to learning how to make software.
+                A dedicated and versatile professional with a Bachelor's degree in Computer Science, 
+                earned in 2020, complemented by 1.5 years of hands-on experience as a data specialist. 
+                Specialized in data annotation and gained expertise in computer vision and natural 
+                language processing. Proven ability to adapt and learn quickly, demonstrated through 
+                self-initiated pursuits, such as transitioning from piano playing to music production 
+                and expanding skills from software use to software development during free time. 
+                Committed to continuous learning and adept at navigating diverse domains to broaden 
+                knowledge and skill sets. Passionate about pushing boundaries and contributing to 
+                the dynamic landscape of technology.
                 </p>
                 </div>
-                <div className="gallery">
-                    {/* <img src={dp} className='photo' alt='developer'/> */}
-                </div>
+                {/* <div className="gallery">
+                    <img src={dp} className='photo' alt='developer'/>
+                </div> */}
             </div>
             
         </div>

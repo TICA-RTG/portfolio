@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(3, 3, 20);
+  background-color: rgb(239, 246, 253);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -21,7 +21,7 @@ code {
   align-items: center;
   padding-top: 5px;
   justify-content: space-between;
-  background-color: rgb(3, 3, 20);
+  background-color: white;
   padding-left: 90px;
   box-shadow: 2px 2px 4px rgb(148, 124, 236);
   padding-right: 50px;
@@ -57,15 +57,19 @@ li {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
-  color: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(rgb(240, 29, 127), rgb(219, 21, 245), rgb(58, 18, 238), rgb(28, 202, 233), rgb(22, 231, 50));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: rgb(3, 3, 20); */
 }
 a {
 text-decoration: none;
 }
 li:hover {
-  background: -webkit-linear-gradient(rgb(240, 29, 127), rgb(219, 21, 245), rgb(58, 18, 238), rgb(28, 202, 233));
+  /* background: -webkit-linear-gradient(rgb(240, 29, 127), rgb(219, 21, 245), rgb(58, 18, 238), rgb(28, 202, 233));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  background-color: grey;
 }
 
 /* li a:not(.active):hover {
@@ -86,7 +90,7 @@ li:hover {
 .menu-button span {
   width: 100%;
   height: 3px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(3, 3, 20);
   border-radius: 3px;
 }
 
@@ -134,7 +138,7 @@ h3 {
   font-size: 20px;
   word-spacing: 10px;
   font-family: "century Regular";
-  color: white;
+  color: rgb(6, 7, 49);
   text-align: center;
 }
 .profile-picture {
@@ -188,6 +192,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(239, 246, 253);
 }
 .skill{
   padding: 20px;
@@ -198,7 +203,7 @@ h3 {
 }
 .skill p {
   font-size: 17px;
-  color: rgb(167, 164, 164);
+  color: rgb(6, 7, 49);
 }
 
 .skill-icon {
@@ -213,7 +218,6 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 .gallery {
   width: 120px;
@@ -221,16 +225,17 @@ h3 {
 .header {
   font-size: 40px;
   font-family: "Script MT Bold";
-  color: white;
+  color: rgb(6, 7, 49);
   text-align: center;
 }
 .bio {
   width: 700px;
+  align-self: center;
 }
 .bio p {
   font-size: 20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(180, 180, 216);
+  color: rgb(61, 61, 78);
   letter-spacing: 3px;
 }
 .photo {
@@ -243,15 +248,26 @@ h3 {
   justify-items: center;
 }
 .contact p {
-  color: white;
+  color: rgb(6, 7, 49);
   text-align: center;
 }
 .for-business p{
-  color: rgb(180, 180, 216);
+  color: rgb(61, 61, 78);
   padding: 20px;
 }
+.reach-me {
+  /* fill:aliceblue; */
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.reach-icon {
+  background-color: white;
+  width: 30px;
+  border-radius: 5px;
+}
 .footer {
-  color: rgb(160, 156, 156);
+  color: rgb(124, 124, 150);
   text-align: center;
   font-size: 14px;
 }
@@ -264,7 +280,7 @@ h3 {
   }
 
   .nav-bar{
-    background-color: rgb(3, 3, 20);
+    background-color:aliceblue;
     flex-direction: column;
     align-items: start;
     padding:0px;
@@ -311,6 +327,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: aliceblue;
   }
   
   .skill{
@@ -327,6 +344,12 @@ h3 {
 
   .skill p{
     font-size: 14px;
+  }
+  .reach-me {
+    width: 200px;
+  }
+  .reach-icon {
+    width: 25px;
   }
   .footer {
     font-size: 12px;
