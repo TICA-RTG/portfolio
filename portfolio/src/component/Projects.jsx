@@ -1,25 +1,29 @@
-import postgres from '../images/postgresql.svg'
-import RI from '../images/ReactIcon.png'
-import css from '../images/css-icon.svg'
-import js from '../images/javascript-icon.svg'
-import mongo from '../images/mongodb-icon.svg'
-import nodejs from '../images/node-js-icon.svg'
-import expressjs from '../images/express-js-icon.svg'
+import { Link } from "react-router-dom"
+import workout from '../images/workout-project-interface.PNG'
 
-import SkillCard from './SkillCard'
-const Projects = ()=> {
+const Projects = () => {
     return (
-        <div className="projects" id="project">
-            <p className='header'>Skills</p>
-            <div className="skill-set">
-                <SkillCard description={"JavaScript"} skillIcon={js}/>
-                <SkillCard description={"React"} skillIcon={RI}/>
-                <SkillCard description={"CSS"} skillIcon={css}/>
-                <SkillCard description={"Node Js"} skillIcon={nodejs}/>
-                <SkillCard description={"Express Js"} skillIcon={expressjs}/>
-                <SkillCard description={"MongoDB"} skillIcon={mongo}/>
-                <SkillCard description={"Postgresql"} skillIcon={postgres}/>
-            </div>
+        <div className="projects">
+           <div className="nav-bar">
+                    <h1>Latest Projects</h1>
+                    <ul className="project-li">
+                     <Link to="/"><li> Home </li></Link>    
+                    </ul>
+           </div>
+           <div className="projects-so-far">
+            <p className="sub-header">WORKOUT APP</p>
+                <div className="project-card">
+                    <div className="project-description">
+                    <p>This software is a Workout tracker where a user can track his or her 
+                        exercise routine and monitor progress. It comes with an authentication 
+                        feature that makes sure all required fields are filled before any workout 
+                        can be added. More authentication features such as signup and sign in are being worked on.
+                        This App was built with Node.Js, MongoDB and React.js, making use of React Context API.
+                    </p>
+                    </div>
+                    <div className="d4"><img src={workout} alt="" className="project-interface"></img></div>
+                </div>
+           </div>
         </div>
     )
 }

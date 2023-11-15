@@ -1,6 +1,8 @@
-import { BrowserRouter } from "react-router-dom"
-import { HashLink as Link } from "react-router-hash-link"
+// import { BrowserRouter } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
+import { Link } from "react-router-dom"
 import { useState } from "react"
+// import Projects from "./Projects"
 
 const NavBar = ()=> {
 
@@ -8,11 +10,10 @@ const NavBar = ()=> {
 
 
     return (
-        <BrowserRouter>
         <div className="nav-bar">
-            <Link to='#home' smooth>
+            <HashLink to='#home' smooth>
                     <h1 className="h1">RTG.Inc</h1>
-            </Link>
+            </HashLink>
             <div className="menu-button" onClick={()=> {
                 setMenuOpen(!menuOpen)
                 }}>
@@ -20,20 +21,24 @@ const NavBar = ()=> {
                 <span></span>
                 <span></span>
             </div>
-                    <ul className={menuOpen ? "menu-open" : "menu-closed"}>
-                        <Link to="#project" smooth>
+                    <ul className={menuOpen ? "menu-open" : ""}>
+                        <HashLink to="#skill" smooth>
                             <li>Skills</li>
-                        </Link>
-                        <Link to="#about" smooth>
+                        </HashLink>
+                        <HashLink to="#about" smooth>
                             <li>About</li>
-                        </Link>
-                        <Link to="#contact" smooth>
+                        </HashLink>
+                        <HashLink to="#contact" smooth>
                             <li>Contact</li>
+                        </HashLink>
+                        
+                        <Link to="/Projects">
+                            <li>Projects</li>
                         </Link>
+                        
                     </ul>
                 
         </div>
-        </BrowserRouter>
     )
 }
 

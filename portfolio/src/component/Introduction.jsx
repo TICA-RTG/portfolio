@@ -1,13 +1,14 @@
 import dp from '../images/Robert1.JPG'
 import About from './About'
 import Contact from './Contact'
-import Projects from './Projects'
-import { BrowserRouter } from 'react-router-dom'
+import Skill from './Skill'
+// import Projects from './Projects'
+// import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 
 const Introduction = ()=> {
     return (
-        <BrowserRouter>
+
         <div className="main">
             <div className='intro' id='home'>
                 <div className='style'><img src={dp} className="profile-picture" alt='developer'></img></div>
@@ -20,12 +21,12 @@ const Introduction = ()=> {
                         </Link>
                 </div> 
             </div>
-            <Projects/>
+            <Skill/>
             <About/>
             <Contact/>
             <p className='footer'>&copy; 2023 RTG.Inc. All rights reserved. </p>
         </div>
-        </BrowserRouter>
+
     )
 }
 

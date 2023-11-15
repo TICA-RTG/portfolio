@@ -11,16 +11,14 @@ const About = ()=> {
                  complemented by 1.5 years of hands-on experience as a data specialist. 
                 Specialized in data annotation and gained expertise in computer vision and natural 
                 language processing. Proven ability to adapt and learn quickly, demonstrated through 
-                self-initiated pursuits, such as transitioning from music production 
+                self-initiated pursuits, such as transitioning from beat production 
                 to expanding skills from software use to software development during free time. 
                 Committed to continuous learning and adept at navigating diverse domains to broaden 
                 knowledge and skill sets. I'm also very Passionate about pushing boundaries and contributing to 
                 the dynamic landscape of technology.
                 </p>
                 </div>
-                {/* <div className="gallery">
-                    <img src={dp} className='photo' alt='developer'/>
-                </div> */}
+                
             </div>
             
         </div>
