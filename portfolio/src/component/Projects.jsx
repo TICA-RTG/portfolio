@@ -15,9 +15,9 @@ const Projects = () => {
                 <div className="project-card">
                     <div className="project-description">
                     <p>This software is a Workout tracker where a user can track his or her 
-                        exercise routine and monitor progress. It comes with an authentication 
-                        feature that makes sure all required fields are filled before any workout 
-                        can be added. More authentication features such as signup and sign in are being worked on.
+                        exercise routine and monitor progress. It comes with a form validation 
+                        feature that ensures all required fields are filled before a workout 
+                        can be added. A user authentication feature is being worked on.
                         This App was built with Node.Js, MongoDB and React.js, making use of React Context API.
                     </p>
                     </div>
