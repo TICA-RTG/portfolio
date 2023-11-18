@@ -21,7 +21,10 @@ const Projects = () => {
                         This App was built with Node.Js, MongoDB and React.js, making use of React Context API.
                     </p>
                     </div>
-                    <div className="d4"><img src={workout} alt="" className="project-interface"></img></div>
+                    <div className="d4"><a href="https://rtg-gym.netlify.app/" target="_blank" rel="noreferrer">
+                         <img src={workout} alt="" className="project-interface"></img>
+                         </a>
+                    </div>
                 </div>
            </div>
         </div>

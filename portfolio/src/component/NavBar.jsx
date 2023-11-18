@@ -18,10 +18,11 @@ const NavBar = ()=> {
                 setMenuOpen(!menuOpen)
                 }}>
                 <span></span>
-                <span></span>
-                <span></span>
+                {/* <span></span>
+                <span></span> */}
             </div>
-                    <ul className={menuOpen ? "menu-open" : ""}>
+            
+                    <ul className={menuOpen ? "menu-open" : "menu-closed"}>
                         <HashLink to="#skill" smooth>
                             <li>Skills</li>
                         </HashLink>
