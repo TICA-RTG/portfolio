@@ -7,6 +7,9 @@ import { useState } from "react"
 const NavBar = ()=> {
 
     const [menuOpen, setMenuOpen] = useState(false)
+    const PressMenu = () => {
+        setMenuOpen(!menuOpen)
+    }
 
 
     return (
@@ -14,9 +17,7 @@ const NavBar = ()=> {
             <HashLink to='#home' smooth>
                     <h1 className="h1">RTG.Inc</h1>
             </HashLink>
-            <div className="menu-button" onClick={()=> {
-                setMenuOpen(!menuOpen)
-                }}>
+            <div className="menu-button" onClick={PressMenu}>
                 <span></span>
                 {/* <span></span>
                 <span></span> */}
